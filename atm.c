@@ -14,7 +14,7 @@ int a=0;
 			printf("no. of hundred notes %d\n",m/100);
 		}else{
 			printf("no. of five hundred notes %d\n",n/500);
-			m=n%500;
+			int m=n%500;
 			printf("no.of hundred notes %d\n",m/100);
 		}
 	}a++;
