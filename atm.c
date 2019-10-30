@@ -10,12 +10,12 @@ int a=0;
 		if(n/100>9){
 			printf("no. of thousand notes %d\n",n/1000);
 			printf("no. of five hundred notes %d\n",(n%1000)/500);
-            int	m=(n%1000)%500;
+           	 	int m=(n%1000)%500;
 			printf("no. of hundred notes %d\n",m/100);
-		}else if(n/100<=9){
+		}else{
 			printf("no. of five hundred notes %d\n",n/500);
 			m=n%500;
-			printf("no.of hundred notes %u\n",m/100);
+			printf("no.of hundred notes %d\n",m/100);
 		}
 	}a++;
 }
